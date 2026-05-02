@@ -70,54 +70,48 @@ TaskDock/
 └── README.md
 
 
+## Pages
 
-Architecture
-The application is split into two main parts:
+- Landing Page
+- Dashboard
+- Projects
+- Workspace
+- Messages
+- Team
+- Documentation
 
-frontend/ contains the React client built with Vite
-backend/ contains the Express API, MongoDB models, and Socket.IO server
-Authentication Flow
-Clerk handles user authentication in the frontend
-Authenticated users are synced to MongoDB through the backend
-Protected routes are enforced on both frontend and backend
-Data Flow
-React context providers manage authentication, projects, and notifications
-Express routes expose project and notification APIs
-MongoDB stores users, projects, tasks, chat messages, notifications, and workspace data
-Socket.IO powers real-time project chat
+## Development Notes
 
+- `.env` files are required and are not committed to the repository
+- MongoDB Atlas must be correctly configured for database connectivity
+- Clerk keys must be valid for authentication to work
+- Backend and frontend ports should match the configured environment variables
 
-Pages
-Landing Page
-Dashboard
-Projects
-Workspace
-Messages
-Team
-Documentation
-Development Notes
-.env files are required and are not committed to the repository
-MongoDB Atlas must be correctly configured for database connectivity
-Clerk keys must be valid for authentication to work
-Backend and frontend ports should match the configured environment variables
-Future Improvements
-Role-based access control
-File uploads and attachments
-Improved member and permission management
-Advanced task filtering and search
-Richer notifications and activity feeds
-Better deployment and production configuration
-Workspace execution and sandbox enhancements
-Contributing
+## Future Improvements
+
+- Role-based access control
+- File uploads and attachments
+- Improved member and permission management
+- Advanced task filtering and search
+- Richer notifications and activity feeds
+- Better deployment and production configuration
+- Workspace execution and sandbox enhancements
+
+## Contributing
+
 Contributions are welcome.
 
-Fork the repository
-Create a feature branch
-Commit your changes
-Push your branch
-Open a pull request
-License
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a pull request
+
+## License
+
 This project is licensed under the MIT License.
 
-Author
+## Author
+
 Built by Amardeep Kumar.
+
