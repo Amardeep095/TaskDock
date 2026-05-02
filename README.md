@@ -45,29 +45,6 @@ TaskDock is designed to help individuals and teams organize work, track progress
 
 ## Project Structure
 
-```text
-TaskDock/
-├── backend/
-│   ├── models/
-│   │   ├── Notification.js
-│   │   ├── Project.js
-│   │   └── User.js
-│   ├── routes/
-│   │   ├── notificationRoutes.js
-│   │   └── projectRoutes.js
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── context/
-│   │   ├── pages/
-│   │   └── utils/
-│   ├── package.json
-│   └── .env
-└── README.md
 
 
 ## Pages
@@ -115,3 +92,46 @@ This project is licensed under the MIT License.
 
 Built by Amardeep Kumar.
 
+
+```text
+TaskDock/
+├── backend/
+│   ├── models/
+│   │   ├── Notification.js
+│   │   ├── Project.js
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── notificationRoutes.js
+│   │   └── projectRoutes.js
+│   ├── server.js
+│   ├── package.json
+│   └── .env
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   └── utils/
+│   ├── package.json
+│   └── .env
+└── README.md
+
+
+## Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a pull request
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+Built by Amardeep Kumar.
